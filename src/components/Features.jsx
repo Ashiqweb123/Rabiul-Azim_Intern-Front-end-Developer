@@ -14,7 +14,6 @@ export default function Features() {
   return (
     <section className="py-14 px-4 bg-slate-50">
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-        {/* Left */}
         <div>
           <div className="text-indigo-600 text-xs font-semibold uppercase tracking-wider mb-3">Pro Features</div>
           <h2
@@ -36,7 +35,6 @@ export default function Features() {
           </ul>
         </div>
 
-        {/* Right - mock analytics card */}
         <div className="bg-white rounded-2xl shadow-md border border-gray-100 p-5">
           <div className="text-xs text-gray-400 mb-3 font-medium uppercase tracking-wider">Link Performance</div>
           {["Campaign A", "Product Launch", "Newsletter", "Social Media"].map((name, i) => (

@@ -5,7 +5,6 @@ export default function Hero() {
   return (
     <section className="bg-gradient-to-b from-slate-50 to-white pt-16 pb-12 px-4 text-center">
       <div className="max-w-2xl mx-auto">
-        {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-indigo-50 text-indigo-600 text-xs font-medium px-3 py-1 rounded-full mb-6 animate-pulse">
           <span className="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
           Now with QR code generation
@@ -28,7 +27,6 @@ export default function Hero() {
           Clean, branded short links with powerful analytics. Track clicks, manage campaigns, and grow your audience faster.
         </p>
 
-        {/* URL Input Card */}
         <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 max-w-lg mx-auto">
           <div className="flex items-center justify-center mb-4">
             <div className="w-10 h-10 bg-indigo-50 rounded-xl flex items-center justify-center">

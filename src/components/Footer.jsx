@@ -3,7 +3,6 @@ export default function Footer() {
     <footer className="bg-gray-900 text-gray-400 pt-12 pb-6 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10">
-          {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-3">
               <div className="w-7 h-7 bg-indigo-600 rounded-lg flex items-center justify-center">
@@ -21,7 +20,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Links */}
           {[
             { title: "Product", links: ["Features", "Pricing", "API Docs", "Changelog"] },
             { title: "Company", links: ["About", "Blog", "Careers", "Press Kit"] },
